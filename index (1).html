@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="icon" href="D:\User\Desktop\LOGO MIMI.jpeg" type="image/gif">
+        <title> Mimi Holidays </title>
+        <link rel="stylesheet" herf="style.css"/>
+        <link rel="stylesheet" herf="contect.html"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <h1>Mimi Holidays</h1>
+        
+        <style>
+        hr.solid {border-top: 2px solid #bbb;}
+         
+         @import url('https://fonts.google.com/css?family=Fredoka+One&display=swap');
+         
+         h1 {
+        font-family: 'Fredoka+One', sans-serif;
+        margin: 50px auto;
+        color: #5255ec;
+        text-align: center;
+        font-size: 50px;
+        max-width: 500px;
+        position: relative;
+        
+         }
+         h2 {
+        font-family: 'Fredoka+One', sans-serif;
+        margin: 50px auto;
+        color: #5255ec;
+        text-align: center;
+        font-size: 40px;
+        max-width: 1000px;
+        position: relative;
+        
+         }
+         
+         .navbar{
+         position: relative;
+         text-align: center;
+         overflow:hidden;
+         font-size: 14px;
+         color:rgb(0, 0, 0);
+         border-radius: 1.5rem;
+         padding: 0.5rem 2.5rem;
+         }
+
+         .navbar :hover{
+            color: rgb(0, 0, 0);
+            background-color: #cfcfcf;
+            
+            font-weight: bold;
+         }
+
+
+.navbar::before,.navbar::after{
+    content: '';
+    display:inline-block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #ccc;
+    top: 50%;
+}
+.navbar::before{
+    margin-left: -10px;
+    transform: translate(-100%);
+}
+
+.navbar::after{
+    margin-left: 10px;
+}
+.button {
+  background-color: #adadad; 
+  border: none;
+  color: white;
+  padding: 10px 50Px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-table;
+  font-size: 16px;
+  margin: 3px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1000{
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-table;
+  font-size: 16px;
+  margin: 9px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.buttonfb{
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-table;
+  font-size: 35px;
+  margin: 9px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button1 {
+  background-color: white;
+  color: rgb(151, 151, 151);
+  border: none;
+}
+
+.button1:hover {background-color: 
+    rgb(243, 243, 243);
+    color: black;
+}
+
+.button2 {
+  background-color: white;
+  color: rgb(151, 151, 151);
+  border: none;
+}
+
+.button2:hover {background-color: rgb(255, 255, 255);
+color:black;
+}
+
+.button2:active {
+  background-color: rgb(189, 189, 189);
+  
+  transform: translateY(0.2px);
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px 3px rgb(204, 204, 204);
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;  
+  
+}
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 1250px){
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+
+    </head>
+    <body>
+        <nav class="navbar">
+
+            <a href="index.html"><button class="button button1">HOME</button></a>
+            <a href="OUT.html"><button class="button button1">OUTBOUND</button></a>
+            <a href="IN.html"><button class="button button1">INBOUND</button></a>
+            <a href="#contact"><button class="button button1">CONTACT US</button></a>
+        </nav>
+        <div class="roll">
+            <div class="banner">
+              <img src="https://img.freepik.com/free-vector/hand-drawn-travel-agency-twitch-banner-with-plane_23-2149379965.jpg?w=826&t=st=1671171462~exp=1671172062~hmac=56547d6bd022427b642517d705336e722aa4683c8d21b32a4bedffa988759d31" height="auto" width="100%" />
+             </div>
+        </div>
+          <h1 class="d"></h1>
+          
+          <hr width="100%" size="2px" color="#ccc">
+          <div class="coll">
+              <div class="subtitle">
+                  <h2> DESTINATIONS HIGHLIGHT </h2>
+                  
+              </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a href="OUT.html">
+                <img src="https://frenchmorning.com/wp-content/uploads/2021/09/avion-768x414.jpg"  width="600" height="400">
+              </a>
+                <div style="text-align:center">
+                    <button class="button1000 button2" > OUTBOUND </button> 
+                  </div>
+            </div>
+          </div>
+          
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a href="IN.html">
+                <img src="https://www.oecd.org/media/oecdorg/topics/health/Safe-international-travel-G20-Event-web.jpg"  width="600" height="400">
+              </a>
+                <div style="text-align:center">
+                    <button class="button1000 button2" > INBOUND </button> 
+                  </div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a href="CRUISE.html">
+                <img src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg" width="600" height="400">
+              </a>
+                <div style="text-align:center">
+                    <button class="button1000 button2" > CRUISE </button> 
+                  </div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a href="ticket.html">
+                <img src="https://media.timeout.com/images/105762050/750/422/image.jpg"  width="600" height="400">
+              </a>
+                <div style="text-align:center">
+                    <button class="button1000 button2" > TICKET </button> 
+                  </div>
+            </div>
+          </div>
+          <h1>   </h1>
+          <h1 class="d"></h1>
+          
+          <hr width="100%" size="2px" color="#ccc">
+         
+          <div class="contact" id="contact">
+            
+            
+            <div class="container">
+              <div style="text-align:center">
+                <h2>Contact Us</h2>
+                
+              </div>
+             <div class="row">
+             <div class="column">
+              <div id="googleMap" style="width:100%;height:200px;"></div>
+            
+            <script>
+            function myMap() {
+            var mapProp= {
+              center:new google.maps.LatLng(51.508742,-0.120850),
+              zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            </script>
+            
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+            </div>
+            
+                <div class="column">
+                  
+                    <p>Contact Number : 0107813733</p>
+
+                    <div class="fb">
+                      <a href="https://www.facebook.com/profile.php?id=100088841076747" target="_blank">
+                     <button class="buttonfb"> <i class="fa fa-facebook-f"></i></button>
+                     </a>
+                    </div>
+                    
+            
+                    
+                    
+                  
+                </div>
+              </div>
+            </div>
+
+          </div>
+    
+    </body>
+</html>
